@@ -1,0 +1,411 @@
+            @media (max-width: 1024px) {
+                [nav] #cta {
+                    margin-right: 23px;
+                }
+                body .banner::before {
+                    height: 206px;
+                    width: 131px;
+                }
+                .why-us .contain .flex {
+                    justify-content: center;
+                }
+                .why-us .contain .flex .col {
+                    width: 22%;
+                    margin-top: 30px;
+                }
+                body .sub-header {
+                    height: 206px;
+                }
+                .contact-sec .contain .flex .col {
+                    margin: 32px;
+                }
+                .contact-sec .contain .flex .col .inner {
+                    padding: 33px 10px;
+                }
+                .price-full .contain .flex .col {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .pricing-sec .contain .flex .col {
+                    width: 31%;
+                    margin-top: 50px;
+                }
+                .package-sec .contain .flex .col {
+                    width: 46%;
+                }
+            }
+            
+            @media (max-width: 991px) {
+                .banner h1 {
+                    font-size: 32px;
+                }
+                .banner .flex .col2 .image {
+                    padding-bottom: 87%;
+                    margin-right: 45px;
+                    margin-left: 33px;
+                }
+                body .banner::before {
+                    height: 204px;
+                    width: 115px;
+                }
+                body .banner::after {
+                    height: 57px;
+                }
+                .why-us .contain .flex .col {
+                    width: 46%;
+                }
+                .about-sec .contain .flex .col {
+                    width: 100%;
+                }
+                .about-sec .contain .flex .col1 {
+                    margin-bottom: 30px;
+                }
+                .about-sec .flex .col2 .image:after {
+                    right: -4.7rem;
+                }
+                .about-sec .flex .col2 .image {
+                    margin-left: 99px;
+                    margin-right: 118px;
+                }
+                .cta .flex .two-side-curve-content {
+                    padding: 56px;
+                }
+                .pricing-sec .contain .flex {
+                    justify-content: center;
+                }
+                body .pricing-sec .contain .flex .col {
+                    width: 45%;
+                    margin-right: 15px;
+                    margin-left: 15px;
+                    margin-top: 29px;
+                }
+                body .pricing-full .contain .flex .col {
+                    width: 46%;
+                    margin-right: 15px;
+                    margin-left: 15px;
+                    margin-top: 29px;
+                }
+                body .sub-header {
+                    height: 190px;
+                }
+                .why-we .contain .flex .col1 {
+                    width: 100%;
+                }
+                .why-we .contain .flex .col1 .image {
+                    padding-bottom: 51%;
+                }
+                .why-we .contain .flex:nth-child(even) .col1 {
+                    margin-right: 0;
+                }
+                .why-we .contain .flex .col2 {
+                    width: 100%;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+                }
+                .why-we .contain .flex .col2 .inner {
+                    padding-right: 30px;
+                    padding-left: 30px;
+                }
+                .why-we .contain .flex:nth-child(odd) .col2 {
+                    margin-right: 0;
+                }
+                .events-sec .contain .flex .col {
+                    width: 100%;
+                }
+                .price-full .contain .flex .col {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+                .apply-content .contain .flex .col2 {
+                    max-width: 83%;
+                }
+                .mini-banner h1 {
+                    font-size: 32px;
+                }
+                .mini-banner .flex .col2 .image {
+                    padding-bottom: 62%;
+                }
+                .contact-sec .contain .flex .col {
+                    width: 31%;
+                }
+                .contact-sec .contain .flex .col {
+                    margin: 8px;
+                }
+                footer .contain>.flexRow {
+                    display: inline-table;
+                }
+                footer .contain>.flexRow>.col {
+                    width: calc(100%/2);
+                    display: inline-block;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                header .toggle {
+                    display: flex;
+                }
+                [nav].active {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                [nav] {
+                    position: fixed;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: 0;
+                    display: flex;
+                    align-content: space-between;
+                    flex-flow: column;
+                    width: auto;
+                    background: #fff;
+                    margin: 0;
+                    padding: 2rem 5rem;
+                    border-top: 0.2rem solid #eee;
+                    visibility: hidden;
+                    opacity: 0;
+                    overflow: auto;
+                    z-index: 3;
+                }
+                header [nav] ul {
+                    width: 100%;
+                    flex-flow: wrap;
+                    margin: auto 0;
+                }
+                header [nav] ul li {
+                    width: 100%;
+                    padding: 10px 0;
+                    text-align: center;
+                }
+                header [nav] ul li a {
+                    color: #000;
+                }
+                header [nav] ul li a:before {
+                    left: auto;
+                }
+                header [nav] ul li>.active:before {
+                    left: auto;
+                }
+                header #cta li {
+                    justify-content: center;
+                }
+                header [nav] ul li>.active:before {
+                    left: auto;
+                }
+                header .topNav .colR {
+                    width: 30%;
+                }
+                header .topNav .colL {
+                    width: 70%;
+                }
+                header [nav] #cta {
+                    margin: auto;
+                }
+                header .nav-item .dropdown-menu {
+                    transition: unset !important;
+                }
+                .contact-sec .contain .flex .col .inner {
+                    padding: 33px 0px;
+                }
+                body .sub-header {
+                    height: 171px;
+                }
+                .mini-banner .flex .col2 .image {
+                    margin-left: 32px;
+                }
+                header nav ul>li:not(.btnLi)>a {
+                    color: #000;
+                }
+                .sticky-left {
+                    top: 0;
+                }
+                .package-sec .contain .flex .col {
+                    width: 45%;
+                }
+                .package-sec .contain .flex .col .heading h4 {
+                    font-size: 19px;
+                }
+            }
+            
+            @media (max-width: 512px) {
+                .banner .flex .col2 .image {
+                    padding-bottom: 87%;
+                    margin-right: 45px;
+                    margin-left: 10px;
+                }
+                .banner .flex .col2 .image::after {
+                    right: -32px;
+                    top: 32px;
+                    height: 100%;
+                    width: 103%;
+                }
+                .banner .contain .flex .col1 {
+                    padding: 0 13px;
+                }
+                .about-sec .flex .col2 .image {
+                    margin-left: 15px;
+                    margin-right: 59px;
+                }
+                .about-sec .contain .flex .col1 {
+                    margin-bottom: 30px;
+                    padding: 0px 12px;
+                }
+                body .mini-banner {
+                    padding-top: 43px;
+                }
+                body .pricing-sec .contain .flex .col {
+                    width: 100%;
+                    margin-right: 12px;
+                    margin-left: 12px;
+                }
+                .why-us .contain .flex .col {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+                .about-sec .flex .col2 .image:after {
+                    right: -3.7rem;
+                    top: -27px;
+                }
+                .cta .text-white p {
+                    display: none;
+                }
+                .cta .col .two-side-curve-content {
+                    border-radius: 0 15px 0 15px;
+                    -webkit-border-radius: 0 15px 0 15px;
+                    -moz-border-radius: 0 15px 0 15px;
+                    -ms-border-radius: 0 15px 0 15px;
+                    -o-border-radius: 0 15px 0 15px;
+                }
+                .pricing-sec .contain .flex .col {
+                    width: 100%;
+                }
+                body .sub-header {
+                    height: 141px;
+                }
+                footer .contain>.flexRow>.col {
+                    width: 100%;
+                }
+                .apply-content .contain .flex .col2 {
+                    max-width: 100%;
+                }
+                .apply-content .contain .flex .col2 .inside {
+                    padding: 50px 10px;
+                }
+                .apply-content .contain .flex .col2 .half {
+                    display: block;
+                    padding-bottom: 0;
+                }
+                .apply-content .contain .flex .col2 .half .inner {
+                    width: 100%;
+                    padding-bottom: 20px;
+                }
+                .contact-sec .contain .flex .col {
+                    width: 100%;
+                    margin-top: 51px;
+                }
+                .contact-sec .contain .flex .col:nth-child(1) {
+                    margin-top: 0;
+                }
+                .mini-banner .contain .flex .col {
+                    width: 100%;
+                }
+                .mini-banner .contain .flex .col2 {
+                    display: none;
+                }
+                .banner .contain .flex .col {
+                    width: 100%;
+                }
+                .banner .contain .flex {
+                    flex-direction: column-reverse;
+                }
+                .banner .contain .content>h1 {
+                    font-size: 45px;
+                    letter-spacing: 0px;
+                }
+                .pricing-sec .contain .heading-price h3 {
+                    font-size: 22px;
+                }
+                .package-sec .contain .flex .col {
+                    width: 100%;
+                }
+            }
+            
+            @media (max-width: 393px) {
+                .cta .flex .col {
+                    padding: 12px;
+                }
+                .cta .flex .two-side-curve-content {
+                    padding: 34px;
+                }
+                .banner .contain .cta a:nth-child(2) {
+                    margin-top: 10px;
+                }
+                body .sub-header {
+                    height: 137px;
+                }
+                .contact-sec .contain .flex .col .inner {
+                    padding: 33px 25px;
+                }
+                .contact-sec .contain .flex .col .inner {
+                    padding: 33px 25px;
+                }
+                body h2 {
+                    font-size: 30px;
+                }
+                .about-sec .contain .cta a:nth-child(2) {
+                    margin-top: 10px;
+                }
+                .banner .contain .content>h1 {
+                    font-size: 40px;
+                    letter-spacing: 0px;
+                }
+                .banner #cta ul li:nth-child(2) {
+                    padding-top: 15px;
+                }
+                .pricing-sec .contain .heading-price h3 {
+                    font-size: 24px;
+                    width: 75%;
+                    line-height: 1.5;
+                    margin: 0 auto;
+                }
+                body .sub-header {
+                    height: 135px;
+                }
+            }
+            
+            @media (max-width: 375px) {
+                body .sub-header {
+                    height: 135px;
+                }
+                .pricing-sec .contain .heading-price h3 {
+                    width: 82%;
+                }
+            }
+            
+            @media (max-width: 360px) {
+                .banner h1 {
+                    font-size: 30px;
+                }
+                body .sub-header {
+                    height: 140px;
+                }
+                .about-sec .contain .cta a {
+                    margin-right: 4px;
+                }
+                .apply-content .checkbox label,
+                .radio label {
+                    padding-left: 5px;
+                }
+                body .mini-banner {
+                    padding-top: 41px;
+                }
+                .mini-banner h1 {
+                    font-size: 30px;
+                }
+                .banner .contain .cta a {
+                    margin-right: 4px;
+                }
+            }
